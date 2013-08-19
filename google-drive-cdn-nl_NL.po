@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Google Drive CDN\n"
-"POT-Creation-Date: 2013-07-15 09:55+0100\n"
-"PO-Revision-Date: 2013-07-15 09:55+0100\n"
+"POT-Creation-Date: 2013-08-19 14:27+0100\n"
+"PO-Revision-Date: 2013-08-19 14:27+0100\n"
 "Last-Translator: Florian Simeth <florian.simeth@online.de>\n"
 "Language-Team: Kay van Aarssen <kay@kayvanaarssen.com>\n"
 "Language: nl_NL\n"
@@ -15,99 +15,99 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ../..\n"
 
-#: ../../classes/wpb_google_drive_cdn.php:176
+#: ../../classes/wpb_google_drive_cdn.php:183
 msgid "Settings"
 msgstr "Instellingen"
 
-#: ../../classes/wpb_google_drive_cdn.php:177
+#: ../../classes/wpb_google_drive_cdn.php:184
 msgid "More Plugins by WPBuddy"
 msgstr "Meer Plugins door WPBuddy"
 
-#: ../../classes/wpb_google_drive_cdn.php:195
+#: ../../classes/wpb_google_drive_cdn.php:202
 msgid "Google Drive CDN"
 msgstr "Google Drive CDN"
 
-#: ../../classes/wpb_google_drive_cdn.php:238
+#: ../../classes/wpb_google_drive_cdn.php:245
 msgid "1. Enable the Drive API"
 msgstr "1. Schakel de Google Drive API in"
 
-#: ../../classes/wpb_google_drive_cdn.php:241
+#: ../../classes/wpb_google_drive_cdn.php:248
 msgid "2. Connect with your Google Drive"
 msgstr "2. Maak verbinding met je Google Drive"
 
-#: ../../classes/wpb_google_drive_cdn.php:244
+#: ../../classes/wpb_google_drive_cdn.php:252
 msgid "3. Info"
 msgstr "3. Info"
 
-#: ../../classes/wpb_google_drive_cdn.php:247
+#: ../../classes/wpb_google_drive_cdn.php:256
 msgid "4. Settings"
 msgstr "4. Instellingen"
 
-#: ../../classes/wpb_google_drive_cdn.php:249
+#: ../../classes/wpb_google_drive_cdn.php:259
 msgid "Error Logs & Hints"
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn.php:252
+#: ../../classes/wpb_google_drive_cdn.php:262
 msgid "About"
 msgstr "Over"
 
-#: ../../classes/wpb_google_drive_cdn.php:255
+#: ../../classes/wpb_google_drive_cdn.php:265
 msgid "Helpful links"
 msgstr "Handige Links"
 
-#: ../../classes/wpb_google_drive_cdn.php:258
+#: ../../classes/wpb_google_drive_cdn.php:268
 msgid "Like this plugin?"
 msgstr "Vind je deze plugin leuk?"
 
-#: ../../classes/wpb_google_drive_cdn.php:261
+#: ../../classes/wpb_google_drive_cdn.php:271
 msgid "Get our free Newsletter"
 msgstr "Ontvang onze gratis nieuwsbrief"
 
-#: ../../classes/wpb_google_drive_cdn.php:267
+#: ../../classes/wpb_google_drive_cdn.php:277
 msgid "Local cache has been cleared."
 msgstr "Lokale cache is gewist."
 
-#: ../../classes/wpb_google_drive_cdn.php:270
+#: ../../classes/wpb_google_drive_cdn.php:280
 #, fuzzy
 msgid "All files created by this plugin have been trashed."
 msgstr ""
 "Gesynchroniseerde bestanden kunnen vervolgens rechtstreeks vanuit uw Google "
 "Drive worden geserveerd."
 
-#: ../../classes/wpb_google_drive_cdn.php:273
+#: ../../classes/wpb_google_drive_cdn.php:283
 msgid "Google Drive as been disconnected"
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn.php:276
+#: ../../classes/wpb_google_drive_cdn.php:286
 #, fuzzy
 msgid "Error log has been cleared."
 msgstr "Lokale cache is gewist."
 
-#: ../../classes/wpb_google_drive_cdn.php:282
+#: ../../classes/wpb_google_drive_cdn.php:292
 msgid "Sync started..."
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn.php:290
+#: ../../classes/wpb_google_drive_cdn.php:301
 msgid "Google Drive CDN Settings"
 msgstr "Google Drive CDN Instellingen"
 
-#: ../../classes/wpb_google_drive_cdn.php:353
+#: ../../classes/wpb_google_drive_cdn.php:372
 msgid "Google's API returned an error!"
 msgstr "Google's API gaf een error terug!"
 
-#: ../../classes/wpb_google_drive_cdn.php:658
+#: ../../classes/wpb_google_drive_cdn.php:722
 msgid "Clear CDN cache"
 msgstr "CDN-cache leegmaken"
 
-#: ../../classes/wpb_google_drive_cdn.php:664
+#: ../../classes/wpb_google_drive_cdn.php:728
 msgid "Clear the Google to WordPress CDN cache"
 msgstr "De Google naar WordPress CDN cache wissen"
 
-#: ../../classes/wpb_google_drive_cdn.php:669
+#: ../../classes/wpb_google_drive_cdn.php:733
 msgid "CDN sync in progress ..."
 msgstr "CDN sync in bezig..."
 
-#: ../../classes/wpb_google_drive_cdn.php:674
+#: ../../classes/wpb_google_drive_cdn.php:738
 msgid ""
 "The Google Drive CDN plugin currently syncs your items to your Google Drive "
 "storage."
@@ -389,44 +389,52 @@ msgstr "Sync lokale CDN"
 msgid "Sync my media library now"
 msgstr "Mijn mediabibliotheek nu synchroniseren"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:352
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:358
 msgid "Delete Logs"
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:93
+#: ../../classes/wpb_google_drive_cdn_settings.php:97
 msgid "Client ID"
 msgstr "Client-ID"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:104
+#: ../../classes/wpb_google_drive_cdn_settings.php:108
 msgid "Client secret"
 msgstr "Client geheim"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:115
+#: ../../classes/wpb_google_drive_cdn_settings.php:119
 msgid "Purchase Code"
 msgstr "Aankoop Code"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:137
+#: ../../classes/wpb_google_drive_cdn_settings.php:130
+msgid "Change temp dir"
+msgstr ""
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:141
+msgid "Temp. dir"
+msgstr ""
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:163
 #, fuzzy
 msgid "Only replace every"
 msgstr "Upload alleen elke"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:148
+#: ../../classes/wpb_google_drive_cdn_settings.php:174
 msgid "Cache time"
 msgstr "Cache tijd"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:159
+#: ../../classes/wpb_google_drive_cdn_settings.php:185
 msgid "Sync interval"
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:170
+#: ../../classes/wpb_google_drive_cdn_settings.php:196
 msgid "File extensions"
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:238
+#: ../../classes/wpb_google_drive_cdn_settings.php:266
 msgid "file"
 msgstr "bestand"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:239
+#: ../../classes/wpb_google_drive_cdn_settings.php:267
 msgid ""
 "This can improve load time because your own server can deliver files, too. "
 "Not every single file should be hosted on Google Drive. It is better to "
@@ -436,7 +444,7 @@ msgstr ""
 "leveren. Niet elk bestand moet zich bevinden op Google Drive. Het is beter "
 "om ze verspreid over meerdere servers."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:255
+#: ../../classes/wpb_google_drive_cdn_settings.php:285
 msgid ""
 "hours (It's recommend to leave this empty because static files do not change "
 "very often.)"
@@ -444,7 +452,7 @@ msgstr ""
 "uur (het is aanbevelen dit leeg te laten omdat statische bestanden niet vaak "
 "veranderen.)"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:256
+#: ../../classes/wpb_google_drive_cdn_settings.php:286
 msgid ""
 "Please specify how long the URLs should be cached. Set to 0 to deactivate. "
 "Leave it blank to store the files for an indefinite period."
@@ -453,21 +461,38 @@ msgstr ""
 "schakelen. Laat het leeg voor het opslaan van de bestanden voor een "
 "onbepaalde periode."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:278
+#: ../../classes/wpb_google_drive_cdn_settings.php:310
 msgid ""
 "How often the files should be synced. If you have a very big media library "
 "you should consider doing this not too often because it will need a lot of "
 "resources on your webserver."
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:295
+#: ../../classes/wpb_google_drive_cdn_settings.php:329
 msgid ""
 "File extensions to search for (comma separated). Note that already uploaded "
 "files remain in Google Drive if a file extension is removed. Clear your "
 "local CDN cache after updating this field."
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:311
+#: ../../classes/wpb_google_drive_cdn_settings.php:349
+msgid ""
+"Activate this if you're getting a \"open_basedir restriction in effect\" "
+"error."
+msgstr ""
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:349
+#: ../../classes/wpb_google_drive_cdn_settings.php:370
+msgid "Read more about it here. (Question #15)"
+msgstr ""
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:370
+msgid ""
+"This is the path to a writable folder. Only set when \"Change temp dir\" is "
+"activated."
+msgstr ""
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:386
 #, php-format
 msgid ""
 "In order to get automatic updates you should copy and paste your purchase "
@@ -478,11 +503,11 @@ msgstr ""
 "plakken. Als u niet waar weet u uw aankoop code kunt vinden, klik dan hier: "
 "%s"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:311
+#: ../../classes/wpb_google_drive_cdn_settings.php:386
 msgid "Where to find your purchase code"
 msgstr "Waar vindt u uw aankoop code"
 
-#: ../../classes/wpb_plugin.php:648
+#: ../../classes/wpb_plugin.php:651
 #, php-format
 msgid ""
 "You should consider entering you purchase code for the %s plugin because you "

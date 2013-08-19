@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Google Drive CDN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-15 09:55+0100\n"
-"PO-Revision-Date: 2013-07-15 09:55+0100\n"
+"POT-Creation-Date: 2013-08-19 14:27+0100\n"
+"PO-Revision-Date: 2013-08-19 14:27+0100\n"
 "Last-Translator: Florian Simeth <florian.simeth@online.de>\n"
 "Language-Team: WP-Buddy <info@wp-buddy.com>\n"
 "Language: de_DE\n"
@@ -16,97 +16,97 @@ msgstr ""
 "X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SearchPath-0: ../..\n"
 
-#: ../../classes/wpb_google_drive_cdn.php:176
+#: ../../classes/wpb_google_drive_cdn.php:183
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: ../../classes/wpb_google_drive_cdn.php:177
+#: ../../classes/wpb_google_drive_cdn.php:184
 msgid "More Plugins by WPBuddy"
 msgstr "Mehr Plugins von WPBuddy"
 
-#: ../../classes/wpb_google_drive_cdn.php:195
+#: ../../classes/wpb_google_drive_cdn.php:202
 msgid "Google Drive CDN"
 msgstr "Google Drive CDN"
 
-#: ../../classes/wpb_google_drive_cdn.php:238
+#: ../../classes/wpb_google_drive_cdn.php:245
 msgid "1. Enable the Drive API"
 msgstr "1. Drive API aktivieren"
 
-#: ../../classes/wpb_google_drive_cdn.php:241
+#: ../../classes/wpb_google_drive_cdn.php:248
 msgid "2. Connect with your Google Drive"
 msgstr "2. Mit Google Drive konnektieren"
 
-#: ../../classes/wpb_google_drive_cdn.php:244
+#: ../../classes/wpb_google_drive_cdn.php:252
 msgid "3. Info"
 msgstr "3. Informationen"
 
-#: ../../classes/wpb_google_drive_cdn.php:247
+#: ../../classes/wpb_google_drive_cdn.php:256
 msgid "4. Settings"
 msgstr "4. Einstellungen"
 
-#: ../../classes/wpb_google_drive_cdn.php:249
+#: ../../classes/wpb_google_drive_cdn.php:259
 msgid "Error Logs & Hints"
 msgstr "Fehlerprotokoll & Hinweise"
 
-#: ../../classes/wpb_google_drive_cdn.php:252
+#: ../../classes/wpb_google_drive_cdn.php:262
 msgid "About"
 msgstr "Über"
 
-#: ../../classes/wpb_google_drive_cdn.php:255
+#: ../../classes/wpb_google_drive_cdn.php:265
 msgid "Helpful links"
 msgstr "Hilfreiche Links"
 
-#: ../../classes/wpb_google_drive_cdn.php:258
+#: ../../classes/wpb_google_drive_cdn.php:268
 msgid "Like this plugin?"
 msgstr "Du magst dieses Plugin?"
 
-#: ../../classes/wpb_google_drive_cdn.php:261
+#: ../../classes/wpb_google_drive_cdn.php:271
 msgid "Get our free Newsletter"
 msgstr "Kostenlosen Newsletter abonnieren"
 
-#: ../../classes/wpb_google_drive_cdn.php:267
+#: ../../classes/wpb_google_drive_cdn.php:277
 msgid "Local cache has been cleared."
 msgstr "Lokale Cache wurde gelöscht."
 
-#: ../../classes/wpb_google_drive_cdn.php:270
+#: ../../classes/wpb_google_drive_cdn.php:280
 msgid "All files created by this plugin have been trashed."
 msgstr ""
 "Alle Dateien die durch dieses Plugin erstellt wurden, wurden in den Google "
 "Drive Papierkorb verschoben."
 
-#: ../../classes/wpb_google_drive_cdn.php:273
+#: ../../classes/wpb_google_drive_cdn.php:283
 msgid "Google Drive as been disconnected"
 msgstr "Google Drive wurde getrennt"
 
-#: ../../classes/wpb_google_drive_cdn.php:276
+#: ../../classes/wpb_google_drive_cdn.php:286
 msgid "Error log has been cleared."
 msgstr "Das Fehlerprotokoll wurde gelöscht."
 
-#: ../../classes/wpb_google_drive_cdn.php:282
+#: ../../classes/wpb_google_drive_cdn.php:292
 msgid "Sync started..."
 msgstr "Synchronisation wurde gestartet..."
 
-#: ../../classes/wpb_google_drive_cdn.php:290
+#: ../../classes/wpb_google_drive_cdn.php:301
 msgid "Google Drive CDN Settings"
 msgstr "Google Drive CDN Einstellungen"
 
-#: ../../classes/wpb_google_drive_cdn.php:353
+#: ../../classes/wpb_google_drive_cdn.php:372
 msgid "Google's API returned an error!"
 msgstr "Google's API hat einen Fehler zurückgegeben."
 
-#: ../../classes/wpb_google_drive_cdn.php:658
+#: ../../classes/wpb_google_drive_cdn.php:722
 msgid "Clear CDN cache"
 msgstr "CDN Cache leeren"
 
-#: ../../classes/wpb_google_drive_cdn.php:664
+#: ../../classes/wpb_google_drive_cdn.php:728
 msgid "Clear the Google to WordPress CDN cache"
 msgstr "Den Google Drive CDN Cache leeren"
 
-#: ../../classes/wpb_google_drive_cdn.php:669
+#: ../../classes/wpb_google_drive_cdn.php:733
 msgid "CDN sync in progress ..."
 msgstr "CDN Synchronisation ist im Gange ..."
 
-#: ../../classes/wpb_google_drive_cdn.php:674
+#: ../../classes/wpb_google_drive_cdn.php:738
 msgid ""
 "The Google Drive CDN plugin currently syncs your items to your Google Drive "
 "storage."
@@ -400,43 +400,51 @@ msgstr "Lokales CDN synchronisieren"
 msgid "Sync my media library now"
 msgstr "Meine Mediathek synchronisieren"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:352
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:358
 msgid "Delete Logs"
 msgstr "Protokoll löschen"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:93
+#: ../../classes/wpb_google_drive_cdn_settings.php:97
 msgid "Client ID"
 msgstr "Client ID"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:104
+#: ../../classes/wpb_google_drive_cdn_settings.php:108
 msgid "Client secret"
 msgstr "Client Secret"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:115
+#: ../../classes/wpb_google_drive_cdn_settings.php:119
 msgid "Purchase Code"
 msgstr "Kaufcode (Purchase Code)"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:137
+#: ../../classes/wpb_google_drive_cdn_settings.php:130
+msgid "Change temp dir"
+msgstr "Temporären Ordner ändern"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:141
+msgid "Temp. dir"
+msgstr "Temporärer Ordner"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:163
 msgid "Only replace every"
 msgstr "Nur jedes"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:148
+#: ../../classes/wpb_google_drive_cdn_settings.php:174
 msgid "Cache time"
 msgstr "Cachezeit"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:159
+#: ../../classes/wpb_google_drive_cdn_settings.php:185
 msgid "Sync interval"
 msgstr "Synchronisierungsintervall"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:170
+#: ../../classes/wpb_google_drive_cdn_settings.php:196
 msgid "File extensions"
 msgstr "Dateierweiterungen"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:238
+#: ../../classes/wpb_google_drive_cdn_settings.php:266
 msgid "file"
 msgstr "Datei hochladen"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:239
+#: ../../classes/wpb_google_drive_cdn_settings.php:267
 msgid ""
 "This can improve load time because your own server can deliver files, too. "
 "Not every single file should be hosted on Google Drive. It is better to "
@@ -447,7 +455,7 @@ msgstr ""
 "Drive gespeichert werden. Es ist besser, die Dateien auf mehrere Server zu "
 "verteilen."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:255
+#: ../../classes/wpb_google_drive_cdn_settings.php:285
 msgid ""
 "hours (It's recommend to leave this empty because static files do not change "
 "very often.)"
@@ -455,7 +463,7 @@ msgstr ""
 "h (Es wird empfohlen, dieses Feld leer zu lassen weil sich statische Dateien "
 "selten ändern)."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:256
+#: ../../classes/wpb_google_drive_cdn_settings.php:286
 msgid ""
 "Please specify how long the URLs should be cached. Set to 0 to deactivate. "
 "Leave it blank to store the files for an indefinite period."
@@ -464,7 +472,7 @@ msgstr ""
 "den Wert auf 0 um Caching zu deaktivieren. Lasse das Feld leer, wenn die "
 "URLs auf unbestimmte Zeit gespeichert werden sollen."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:278
+#: ../../classes/wpb_google_drive_cdn_settings.php:310
 msgid ""
 "How often the files should be synced. If you have a very big media library "
 "you should consider doing this not too often because it will need a lot of "
@@ -473,7 +481,7 @@ msgstr ""
 "Wie oft die Dateien synchronisiert werden sollen. Wenn Du eine sehr große "
 "Mediathek hast solltest Du die Synchronisierung nicht zu oft durchführen."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:295
+#: ../../classes/wpb_google_drive_cdn_settings.php:329
 msgid ""
 "File extensions to search for (comma separated). Note that already uploaded "
 "files remain in Google Drive if a file extension is removed. Clear your "
@@ -484,7 +492,28 @@ msgstr ""
 "falls beispielsweise eine Dateiendung entfernt wird. Leere den lokalen CDN-"
 "Cache nachdem Du die Liste der Dateiänderungen verändert hast."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:311
+#: ../../classes/wpb_google_drive_cdn_settings.php:349
+msgid ""
+"Activate this if you're getting a \"open_basedir restriction in effect\" "
+"error."
+msgstr ""
+"Aktiviere das Häkchen wenn Du einen \"open_basedir Restriktion in effect\" "
+"Fehler erhälst."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:349
+#: ../../classes/wpb_google_drive_cdn_settings.php:370
+msgid "Read more about it here. (Question #15)"
+msgstr "Erfahre hier mehr darüber. (Frage 15, englisch)"
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:370
+msgid ""
+"This is the path to a writable folder. Only set when \"Change temp dir\" is "
+"activated."
+msgstr ""
+"Dies ist der Pfad zu Verzeichnis der vom Webserver beschreibbar ist. Ist nur "
+"aktiv wenn \"Temporärer Ordner ändern\" aktiv ist."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:386
 #, php-format
 msgid ""
 "In order to get automatic updates you should copy and paste your purchase "
@@ -495,11 +524,11 @@ msgstr ""
 "(engl. Purchase Code). Wenn Du nicht weißt, wo Du Ihn finden kannst, klicke "
 "bitte hier: %s"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:311
+#: ../../classes/wpb_google_drive_cdn_settings.php:386
 msgid "Where to find your purchase code"
 msgstr "Wo finde ich den Purchase Code? (engl.)"
 
-#: ../../classes/wpb_plugin.php:648
+#: ../../classes/wpb_plugin.php:651
 #, php-format
 msgid ""
 "You should consider entering you purchase code for the %s plugin because you "
@@ -508,6 +537,9 @@ msgstr ""
 "Du solltest darüber nachdenken, deinen Kaufcode (engl. \"Purchase Code\") "
 "für das %s Plugin einzugeben da du automatisch über jedes Update informiert "
 "wirst und es direkt über deine WordPress-Installation einbinden kannst."
+
+#~ msgid "(Read more about it here. Question #15)"
+#~ msgstr "(Erfahren Sie hier mehr darüber (Frage 15, englisch)"
 
 #~ msgid "All files from your Google Drive have been removed."
 #~ msgstr "Alle Dateien Deines Google Drives wurden gelöscht."
