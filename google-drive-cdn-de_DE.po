@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Google Drive CDN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-19 14:27+0100\n"
-"PO-Revision-Date: 2013-09-16 12:47+0100\n"
+"POT-Creation-Date: 2013-10-10 13:35+0100\n"
+"PO-Revision-Date: 2013-10-10 13:41+0100\n"
 "Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
 "Language-Team: WP-Buddy <info@wp-buddy.com>\n"
 "Language: de_DE\n"
@@ -94,19 +94,19 @@ msgstr "Google Drive CDN Einstellungen"
 msgid "Google's API returned an error!"
 msgstr "Google's API hat einen Fehler zurückgegeben."
 
-#: ../../classes/wpb_google_drive_cdn.php:722
+#: ../../classes/wpb_google_drive_cdn.php:782
 msgid "Clear CDN cache"
 msgstr "CDN Cache leeren"
 
-#: ../../classes/wpb_google_drive_cdn.php:728
+#: ../../classes/wpb_google_drive_cdn.php:788
 msgid "Clear the Google to WordPress CDN cache"
 msgstr "Den Google Drive CDN Cache leeren"
 
-#: ../../classes/wpb_google_drive_cdn.php:733
+#: ../../classes/wpb_google_drive_cdn.php:793
 msgid "CDN sync in progress ..."
 msgstr "CDN Synchronisation ist im Gange ..."
 
-#: ../../classes/wpb_google_drive_cdn.php:738
+#: ../../classes/wpb_google_drive_cdn.php:798
 msgid ""
 "The Google Drive CDN plugin currently syncs your items to your Google Drive "
 "storage."
@@ -371,36 +371,56 @@ msgstr ""
 
 #: ../../classes/wpb_google_drive_cdn_metaboxes.php:272
 msgid ""
-"This plugin syncs new or updated files every hour. This can cause problems "
-"if you're using a WordPress theme which changed files on the file system. "
-"Try to manually sync files after changing any theme-related things."
+"Google Drive delivers all files via secure SSL. If you are not using SSL on "
+"your domain you should remove CSS files from the file extensions field "
+"below. This is because it can lead to the \"Mixed Content Blocker\" problem "
+"some browsers have when your CSS file tries to import Non-SSL files via the "
+"@import function. The plugin will automatically stop referring to CSS files "
+"on Google Drive if it detects that your domain does not support SSL."
 msgstr ""
-"Dieses Plugin synchronisiert neue oder veränderte Dateien jede Stunde. Das "
-"könnte Probleme mit einigen WordPress Themes verursachen falls diese Dateien "
-"auf dem Dateisystem verändern. Versuche einfach, die Synchronisation manuell "
-"zu starten, nachdem Du am Theme etwas verändert hast."
+"Google Drive liefert alle Dateien über SSL aus. Wenn Du kein SSL auf deiner "
+"Domain nutzt solltest du die CSS-Dateierweiterung aus der Liste der "
+"Dateierweiterungen unten löschen. Das Plugin muss das so handhaben um die "
+"User vor dem so genannten \"Mixed Content Blocker\" Problem zu bewahren. "
+"Einige Browser blockieren z.B. das Nachladen von Dateien in CSS Dateien "
+"(über die @import Funktion) wenn die dort aufgerufenen Dateien nicht auch "
+"über SSL aufgerufen wird. Das Plugin versucht automatisch herauszufinden ob "
+"Du SSL nutzt. Falls nicht, wird CSS deaktiviert."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:289
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:273
+msgid ""
+"As per default this plugin syncs new or updated files every hour. This can "
+"cause problems if you're using a WordPress theme which change files on the "
+"file system. Try to manually sync files after changing any theme-related "
+"things."
+msgstr ""
+"In der Standardeinstellungen synchronisiert dieses Plugin neue oder "
+"veränderte Dateien jede Stunde. Das könnte Probleme mit einigen WordPress "
+"Themes verursachen falls diese Dateien auf dem Dateisystem verändern. "
+"Versuche einfach, die Synchronisation manuell zu starten, nachdem Du am "
+"Theme etwas verändert hast."
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:290
 msgid "Disconnect"
 msgstr "Trennen"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:290
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:291
 msgid "Clear local CDN cache"
 msgstr "Lokalen CDN-Cache leeren"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:291
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:292
 msgid "Move all cached files to the Google Drive trash"
 msgstr "Alle Dateien auf dem Google Drive in den Papierkorb verschieben."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:292
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:293
 msgid "Sync local CDN"
 msgstr "Lokales CDN synchronisieren"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:293
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:294
 msgid "Sync my media library now"
 msgstr "Meine Mediathek synchronisieren"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:358
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:359
 msgid "Delete Logs"
 msgstr "Protokoll löschen"
 
@@ -446,14 +466,14 @@ msgstr "Datei hochladen"
 
 #: ../../classes/wpb_google_drive_cdn_settings.php:267
 msgid ""
-"This can improve load time because your own server can deliver files, too. "
-"Not every single file should be hosted on Google Drive. It is better to "
-"spread them across multiple servers."
+"Increasing this number can improve load time because your own server can "
+"deliver files, too. Not every single file should be delivered from your "
+"Google Drive. It is better to spread them across multiple servers."
 msgstr ""
-"Dies kann die Ladezeit drastisch erhöhen, weil Ihr eigener Server ebenfalls "
-"Dateien ausliefern kann. Nicht jede einzelne Datei sollte auf dem Google "
-"Drive gespeichert werden. Es ist besser, die Dateien auf mehrere Server zu "
-"verteilen."
+"Die Erhöhung dieser Zahl kann die Ladezeit drastisch erhöhen, weil Dein "
+"eigener Server ebenfalls Dateien ausliefern kann. Nicht jede einzelne Datei "
+"sollte auf dem Google Drive gespeichert werden. Es ist besser, die Dateien "
+"auf mehrere Server zu verteilen."
 
 #: ../../classes/wpb_google_drive_cdn_settings.php:285
 msgid ""
@@ -492,7 +512,17 @@ msgstr ""
 "falls beispielsweise eine Dateiendung entfernt wird. Leere den lokalen CDN-"
 "Cache nachdem Du die Liste der Dateierweiterungen verändert hast."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:349
+#: ../../classes/wpb_google_drive_cdn_settings.php:330
+msgid ""
+"The plugin found out that you are currently not using SSL. To the prevent "
+"\"Mixed Content Blocker\" warnings in browsers, no CSS files will be used "
+"from your Google Drive."
+msgstr ""
+"Das Plugin hat herausgefunden dass Du im Moment kein SSL nutzt. Um so "
+"genannte \"Mixed Content Blocker\" Warnungen von einigen Browsern zu umgehen "
+"werden keine CSS Dateien von Deinem Google Drive eingebunden."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:351
 msgid ""
 "Activate this if you're getting a \"open_basedir restriction in effect\" "
 "error."
@@ -500,12 +530,12 @@ msgstr ""
 "Aktiviere das Häkchen wenn Du einen \"open_basedir Restriktion in effect\" "
 "Fehler erhälst."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:349
-#: ../../classes/wpb_google_drive_cdn_settings.php:370
+#: ../../classes/wpb_google_drive_cdn_settings.php:351
+#: ../../classes/wpb_google_drive_cdn_settings.php:372
 msgid "Read more about it here. (Question #15)"
 msgstr "Erfahre hier mehr darüber. (Frage 15, englisch)"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:370
+#: ../../classes/wpb_google_drive_cdn_settings.php:372
 msgid ""
 "This is the path to a writable folder. Only set when \"Change temp dir\" is "
 "activated."
@@ -513,7 +543,7 @@ msgstr ""
 "Dies ist der Pfad zu Verzeichnis der vom Webserver beschreibbar ist. Ist nur "
 "aktiv wenn \"Temporärer Ordner ändern\" aktiv ist."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:386
+#: ../../classes/wpb_google_drive_cdn_settings.php:388
 #, php-format
 msgid ""
 "In order to get automatic updates you should copy and paste your purchase "
@@ -524,11 +554,11 @@ msgstr ""
 "(engl. Purchase Code). Wenn Du nicht weißt, wo Du Ihn finden kannst, klicke "
 "bitte hier: %s"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:386
+#: ../../classes/wpb_google_drive_cdn_settings.php:388
 msgid "Where to find your purchase code"
 msgstr "Wo finde ich den Purchase Code? (engl.)"
 
-#: ../../classes/wpb_plugin.php:651
+#: ../../classes/wpb_plugin.php:723
 #, php-format
 msgid ""
 "You should consider entering you purchase code for the %s plugin because you "
