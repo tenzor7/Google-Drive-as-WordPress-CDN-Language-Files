@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Google Drive CDN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-16 12:29+0100\n"
-"PO-Revision-Date: 2013-12-16 12:39+0100\n"
+"POT-Creation-Date: 2013-12-23 11:46+0100\n"
+"PO-Revision-Date: 2013-12-23 11:50+0100\n"
 "Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
 "Language-Team: WP-Buddy <info@wp-buddy.com>\n"
 "Language: de_DE\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-KeywordsList: _;__;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.2\n"
+"X-Generator: Poedit 1.6.3\n"
 "X-Poedit-SearchPath-0: ../..\n"
 
 #: ../../classes/wpb_google_drive_cdn.php:183
@@ -122,7 +122,27 @@ msgstr ""
 "Zuerst muss die Drive-API aktiviert werden. Diese Einstellung triffst du im "
 "Projekt in der Google Cloud Console."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:50
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:48
+#, php-format
+msgid ""
+"<strong>Please note</strong> that Google always tends to change things "
+"quickly. They have changed the way to register apps three times in the year "
+"2013. So it can be that the little \"How to\" below is outdated when you "
+"have bought the plugin. In this case, please visit the FAQ page of the "
+"plugin to get the latest version of the How-To: %s"
+msgstr ""
+"<strong>Bitte beachte folgendes:</strong> Google neigt dazu, Dinge sehr "
+"schnell zu verändern. Im Jahr 2013 haben sie den Vorgang, eine App zu "
+"registrieren, dreimal geändert. Das bedeutet, dass das kleine \"How-To\" "
+"unten eventuell nicht mehr ganz korrekt ist, wenn Du das Plugin gekauft "
+"hast. In diesem Fall kannst Du gerne mal auf unsere FAQ-Seite wechseln. Dort "
+"findest du immer die aktuellste Anleitung: %s"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:48
+msgid "Google Drive as CDN FAQ page"
+msgstr "Google Drive als CDN FAQ Seite (englisch)"
+
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:51
 #, php-format
 msgid ""
 "You need a Google account. You do not have a Google account? Click here to "
@@ -131,7 +151,7 @@ msgstr ""
 "Du benötigst ein Google Konto. Wenn Du keines hast, kannst Du hier eines "
 "erstellen: %s"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:51
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:52
 #, php-format
 msgid ""
 "Create an API project in the Google Cloud Console (former Google API "
@@ -140,7 +160,7 @@ msgstr ""
 "Erstelle ein API-Projekt in Google’s Cloud Console (vorher: „Google API "
 "Console“) indem du folgendem Link folgst: %s"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:52
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:53
 msgid ""
 "Click the red \"Create Project\" button and type in a name (ex. \"WordPress "
 "to Google Drive\") and a project ID (like \"wp-to-gd\" - should be unique)"
@@ -149,7 +169,7 @@ msgstr ""
 "WordPress Google Drive“) und eine Projekt-ID (z.B. „wp-to-gd“ - sollte "
 "einzigartig sein) ein."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:53
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:54
 msgid ""
 "If done click \"APIs & auth\" -> \"APIs\" and activate the \"Drive API\" and "
 "\"Drive SDK\" (set the switch to ON)."
@@ -157,51 +177,43 @@ msgstr ""
 "Fertig? Dann klicke auf „APIs & auth“ -> „APIs“ und aktiviere „Drive API“ "
 "und „Drive SDK“ (Schalter auf ON setzen)."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:54
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:55
 msgid "Then click the \"Consent screen\" link in the menu."
 msgstr "Dann klicke auf den „Consent screen“ link im Menü."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:55
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:56
 msgid "Type-in a product name (like \"WordPress to GoogleDrive\")."
 msgstr "Gebe einen Plugin-Namen ein (z.B. „WordPress to Google Drive“)."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:56
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:57
 msgid "Choose an E-Mail Address and save your settings."
 msgstr "Wähle eine E-Mail Adresse und speichere Deine Einstellungen."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:57
-msgid "Then click the \"APIs & auth\" -> \"Registered apps\" in the menu."
-msgstr "Dann klicke auf „APIs & auth“ -> „Registered apps“ im Menü."
-
 #: ../../classes/wpb_google_drive_cdn_metaboxes.php:58
-msgid "Click the red button which says \"Register App\"."
-msgstr "Klicke auf den roten „Register App“ Button."
+msgid "Then click the \"APIs & auth\" -> \"Credentials\" link."
+msgstr "Dann klicke auf „APIs & auth“ -> „Credentials“ im Menü."
 
 #: ../../classes/wpb_google_drive_cdn_metaboxes.php:59
-msgid ""
-"Choose a name (ex. \"WordPress to Google Drive CDN\"), choose \"Web "
-"application\" and click \"Register\"."
-msgstr ""
-"Wähle einen Namen (z.B. „WordPress Google Drive CDN“), wähle „Web "
-"Application“ und klicke auf „Register“."
+msgid "Click the red button which says \"Create New Client ID\"."
+msgstr "Klicke auf den roten „Create New Client ID“ Button."
 
 #: ../../classes/wpb_google_drive_cdn_metaboxes.php:60
-msgid "Click onto the label \"OAuth 2.0 Client ID\"."
-msgstr "Klick auf das Label „OAuth 2.0 Client ID“."
+msgid "Choose \"Web application\"."
+msgstr "Wähle \"Web application\"."
 
 #: ../../classes/wpb_google_drive_cdn_metaboxes.php:61
 #, php-format
-msgid "Enter %s in the field \"Web origin\""
-msgstr "Gebe %s in das Feld „Web Origin“ ein."
+msgid "Enter %s in the field \"Authorized Javascript origins\""
+msgstr "Gebe %s in das Feld \"Authorized Javascript origins\" ein."
 
 #: ../../classes/wpb_google_drive_cdn_metaboxes.php:62
 #, php-format
-msgid "Enter %s in one of the Redirect URL fields"
-msgstr "Gib %s in eines der „Redirect URL“ Felder ein."
+msgid "Enter %s in the \"Authorized Redirect URI\" field"
+msgstr "Gebe %s in das Feld „Authorized Redirect URI“ ein."
 
 #: ../../classes/wpb_google_drive_cdn_metaboxes.php:63
-msgid "Then click \"Generate\"."
-msgstr "Klicke „Generate“."
+msgid "Then click \"Create Client ID\"."
+msgstr "Klick auf \"Create Client ID\"."
 
 #: ../../classes/wpb_google_drive_cdn_metaboxes.php:64
 msgid "You should now see all the information that are required."
@@ -214,7 +226,7 @@ msgstr ""
 "Kopiere die Client ID sowie den Client Secret in die unten stehenden "
 "Textfelder."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:95
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:94
 msgid ""
 "Please note: you will be redirected to a Google's authorization page. Please "
 "press the blue button to give this application the right to upload files."
@@ -223,15 +235,15 @@ msgstr ""
 "geleitet. Klicke dort auf den blauen Button um diesem Plugin das Hochladen "
 "von Dateien zu erlauben."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:97
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:96
 msgid "Grant writing permissions to your Google Drive"
 msgstr "Gewähre dem Plugin Schreibrechte auf Ihr Google Drive Konto"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:100
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:99
 msgid "The Google Drive API is currently not working."
 msgstr "Die Google Drive API scheint im Moment nicht zu funktionieren."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:100
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:99
 msgid ""
 "Try to (re-)authenticate by using the button \"Grant writing permissions to "
 "your Google Drive\" button."
@@ -240,43 +252,43 @@ msgstr ""
 "Button \"Gewähren Sie dem Plugin Schreibrechte auf Ihr Google Drive Konto\" "
 "klickst."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:144
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:143
 msgid "Installation manual"
 msgstr "Installationsanleitung"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:147
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:146
 msgid "Frequently Asked Questions"
 msgstr "Häufig gestellte Fragen"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:150
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:149
 msgid "Report a bug"
 msgstr "Einen Fehler melden"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:153
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:152
 msgid "Request a function"
 msgstr "Eine neue Funktion wünschen"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:156
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:155
 msgid "Submit a translation"
 msgstr "Eine Übersetzung einreichen"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:159
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:158
 msgid "More cool stuff by WPBuddy"
 msgstr "Weitere Produkte von WPBuddy"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:223
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:222
 msgid "Your first name"
 msgstr "Dein Vorname"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:225
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:224
 msgid "Your E-Mail address"
 msgstr "Deine E-Mail Adresse"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:227
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:226
 msgid "Subscribe"
 msgstr "Eintragen"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:265
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:264
 #, php-format
 msgid ""
 "You are now ready to go! The plugin has created a folder named %1$s on your "
@@ -286,11 +298,11 @@ msgstr ""
 "auf Ihrem Google Drive Laufwerk erstellt. Klicke hier um alle Dateien jetzt "
 "anzusehen: %2$s"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:270
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:269
 msgid "The plugin works like this:"
 msgstr "Das Plugin funktioniert folgendermaßen:"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:273
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:272
 msgid ""
 "If anyone visits a page of your website, the plugin searches for files that "
 "can be uploaded to Google Drive."
@@ -299,7 +311,7 @@ msgstr ""
 "Dateien zu suchen, die noch nicht zu Deinem Google Drive Laufwerk "
 "hochgeladen wurden."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:274
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:273
 msgid ""
 "If the file is not yet uploaded to Google Drive the plugin will put it down "
 "into the cache-database for a later upload."
@@ -307,7 +319,7 @@ msgstr ""
 "Wenn eine Datei noch nicht hochgeladen wurde, wird sie in einer Cache-"
 "Datenbank erfasst und für den späteren Upload vorgemerkt."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:275
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:274
 msgid ""
 "Every hour the plugin reads all these entries from the cache-database to "
 "sync files to your Google Drive that have not yet been synced."
@@ -316,13 +328,13 @@ msgstr ""
 "Dateien zu Deinem Google Drive Laufwerk, die dort noch nicht hochgeladen "
 "wurden."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:276
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:275
 msgid "Synced files can then be served directly from your Google Drive."
 msgstr ""
 "Synchronisierte Dateien können direkt von Deinem Google  Drive Laufwerk "
 "ausgeliefert werden."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:277
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:276
 msgid ""
 "You can manually start syncing the files that have been written to the cache-"
 "database by clicking the \"Sync local CDN\"-button."
@@ -331,7 +343,7 @@ msgstr ""
 "sofort manuell starten indem Du auf den Button \"Lokales CDN synchronisieren"
 "\" drückst."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:278
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:277
 msgid ""
 "From time to time every single file gets located and uploaded to Google "
 "Drive. Because of this process the speed of your website should improve "
@@ -341,11 +353,11 @@ msgstr ""
 "hochgeladen. Deswegen wird deine Webseite von Zeit zu Zeit immer schnell "
 "werden."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:281
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:280
 msgid "Please note:"
 msgstr "Bitte beachte folgendes:"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:283
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:282
 msgid ""
 "It is recommended to use a \"caching plugin\" like WP-Super-Cache to "
 "significantly improve page load time."
@@ -353,7 +365,7 @@ msgstr ""
 "Es wird der Einsatz eines \"Caching Plugins\" wie z.B. WP-Super-Cache "
 "empfohlen um die Ladezeit der Website weiter zu verkürzen."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:284
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:283
 msgid ""
 "You can start sync your local media library to Google Drive using the \"Sync "
 "my media library now\"-button. Depending on the size of your media library "
@@ -364,7 +376,7 @@ msgstr ""
 "\" drückst. Abhängig von der Größe deiner aktuellen Mediathek kann das "
 "einige Zeit in Anspruch nehmen."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:285
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:284
 msgid ""
 "Google Drive delivers all files via secure SSL. If you are not using SSL on "
 "your domain you should remove CSS files from the file extensions field "
@@ -382,7 +394,7 @@ msgstr ""
 "über SSL aufgerufen wird. Das Plugin versucht automatisch herauszufinden ob "
 "Du SSL nutzt. Falls nicht, wird CSS deaktiviert."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:286
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:285
 msgid ""
 "As per default this plugin syncs new or updated files every hour. This can "
 "cause problems if you're using a WordPress theme which change files on the "
@@ -395,27 +407,27 @@ msgstr ""
 "Versuche einfach, die Synchronisation manuell zu starten, nachdem Du am "
 "Theme etwas verändert hast."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:303
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:302
 msgid "Disconnect"
 msgstr "Trennen"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:304
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:303
 msgid "Clear local CDN cache"
 msgstr "Lokalen CDN-Cache leeren"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:305
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:304
 msgid "Move all cached files to the Google Drive trash"
 msgstr "Alle Dateien auf dem Google Drive in den Papierkorb verschieben."
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:306
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:305
 msgid "Sync local CDN"
 msgstr "Lokales CDN synchronisieren"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:307
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:306
 msgid "Sync my media library now"
 msgstr "Meine Mediathek synchronisieren"
 
-#: ../../classes/wpb_google_drive_cdn_metaboxes.php:374
+#: ../../classes/wpb_google_drive_cdn_metaboxes.php:373
 msgid "Delete Logs"
 msgstr "Protokoll löschen"
 
