@@ -1,136 +1,136 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Google Drive CDN\n"
-"POT-Creation-Date: 2014-02-03 16:45+0100\n"
-"PO-Revision-Date: 2014-02-03 16:56+0100\n"
+"POT-Creation-Date: 2014-02-18 14:23+0100\n"
+"PO-Revision-Date: 2014-02-18 14:23+0100\n"
 "Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
 "Language-Team: Kay van Aarssen <kay@kayvanaarssen.com>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.3\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-KeywordsList: _;_e;__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ../..\n"
 
-#: ../../classes/wpb_google_drive_cdn.php:190
+#: ../../classes/wpb_google_drive_cdn.php:201
 msgid "Settings"
 msgstr "Instellingen"
 
-#: ../../classes/wpb_google_drive_cdn.php:191
+#: ../../classes/wpb_google_drive_cdn.php:202
 msgid "More Plugins by WPBuddy"
 msgstr "Meer Plugins door WPBuddy"
 
-#: ../../classes/wpb_google_drive_cdn.php:209
+#: ../../classes/wpb_google_drive_cdn.php:220
 msgid "Google Drive CDN"
 msgstr "Google Drive CDN"
 
-#: ../../classes/wpb_google_drive_cdn.php:255
+#: ../../classes/wpb_google_drive_cdn.php:266
 msgid "1. Enable the Drive API"
 msgstr "1. Schakel de Google Drive API in"
 
-#: ../../classes/wpb_google_drive_cdn.php:258
+#: ../../classes/wpb_google_drive_cdn.php:269
 msgid "2. Connect with your Google Drive"
 msgstr "2. Maak verbinding met je Google Drive"
 
-#: ../../classes/wpb_google_drive_cdn.php:262
+#: ../../classes/wpb_google_drive_cdn.php:273
 #, fuzzy
 msgid "3. Instructions - READ THIS CAREFULLY"
 msgstr "3. Info"
 
-#: ../../classes/wpb_google_drive_cdn.php:266
+#: ../../classes/wpb_google_drive_cdn.php:277
 msgid "4. Settings"
 msgstr "4. Instellingen"
 
-#: ../../classes/wpb_google_drive_cdn.php:269
+#: ../../classes/wpb_google_drive_cdn.php:280
 #, fuzzy
 msgid "Error Logs, hints and statistics"
 msgstr "Google's API gaf een error terug!"
 
-#: ../../classes/wpb_google_drive_cdn.php:272
+#: ../../classes/wpb_google_drive_cdn.php:283
 msgid "About"
 msgstr "Over"
 
-#: ../../classes/wpb_google_drive_cdn.php:275
+#: ../../classes/wpb_google_drive_cdn.php:286
 msgid "Helpful links"
 msgstr "Handige Links"
 
-#: ../../classes/wpb_google_drive_cdn.php:278
+#: ../../classes/wpb_google_drive_cdn.php:289
 msgid "Like this plugin?"
 msgstr "Vind je deze plugin leuk?"
 
-#: ../../classes/wpb_google_drive_cdn.php:281
+#: ../../classes/wpb_google_drive_cdn.php:292
 msgid "Get our free Newsletter"
 msgstr "Ontvang onze gratis nieuwsbrief"
 
-#: ../../classes/wpb_google_drive_cdn.php:287
+#: ../../classes/wpb_google_drive_cdn.php:298
 msgid "Local cache has been cleared."
 msgstr "Lokale cache is gewist."
 
-#: ../../classes/wpb_google_drive_cdn.php:290
+#: ../../classes/wpb_google_drive_cdn.php:301
 #, fuzzy
 msgid "All files created by this plugin have been trashed."
 msgstr ""
 "Elk uur leest de plugin deze vermeldingen uit de cache-database om de "
 "bestanden te syncen die nog niet zijn gesynchroniseerd zijn met Google Drive."
 
-#: ../../classes/wpb_google_drive_cdn.php:293
+#: ../../classes/wpb_google_drive_cdn.php:304
 #, fuzzy
 msgid "Google Drive as been disconnected"
 msgstr ""
 "Elk uur leest de plugin deze vermeldingen uit de cache-database om de "
 "bestanden te syncen die nog niet zijn gesynchroniseerd zijn met Google Drive."
 
-#: ../../classes/wpb_google_drive_cdn.php:296
+#: ../../classes/wpb_google_drive_cdn.php:307
 #, fuzzy
 msgid "Error log has been cleared."
 msgstr "Lokale cache is gewist."
 
-#: ../../classes/wpb_google_drive_cdn.php:302
+#: ../../classes/wpb_google_drive_cdn.php:313
 #, fuzzy
 msgid "Sync / Upload started..."
 msgstr "CDN sync in bezig..."
 
-#: ../../classes/wpb_google_drive_cdn.php:305
+#: ../../classes/wpb_google_drive_cdn.php:316
 #, fuzzy
 msgid ""
 "Sync will be stopped after the current file has been uploaded successfully."
 msgstr "Lokale cache is gewist."
 
-#: ../../classes/wpb_google_drive_cdn.php:313
+#: ../../classes/wpb_google_drive_cdn.php:324
 msgid "Google Drive CDN Settings"
 msgstr "Google Drive CDN Instellingen"
 
-#: ../../classes/wpb_google_drive_cdn.php:384
+#: ../../classes/wpb_google_drive_cdn.php:395
 msgid "Google's API returned an error!"
 msgstr "Google's API gaf een error terug!"
 
-#: ../../classes/wpb_google_drive_cdn.php:792
+#: ../../classes/wpb_google_drive_cdn.php:836
 msgid "Clear CDN cache"
 msgstr "CDN-cache leegmaken"
 
-#: ../../classes/wpb_google_drive_cdn.php:798
+#: ../../classes/wpb_google_drive_cdn.php:842
 msgid "Clear the Google to WordPress CDN cache"
 msgstr "De Google naar WordPress CDN cache wissen"
 
-#: ../../classes/wpb_google_drive_cdn.php:815
+#: ../../classes/wpb_google_drive_cdn.php:859
 #, fuzzy
 msgid "CDN sync in progress! Click here to stop."
 msgstr "CDN sync in bezig..."
 
-#: ../../classes/wpb_google_drive_cdn.php:817
+#: ../../classes/wpb_google_drive_cdn.php:861
 #, fuzzy
 msgid "CDN upload in progress! Click here to stop."
 msgstr "CDN sync in bezig..."
 
-#: ../../classes/wpb_google_drive_cdn.php:822
+#: ../../classes/wpb_google_drive_cdn.php:866
 #, fuzzy
 msgid "Stopping CDN sync/upload ..."
 msgstr "CDN sync in bezig..."
 
-#: ../../classes/wpb_google_drive_cdn.php:832
+#: ../../classes/wpb_google_drive_cdn.php:876
 #, fuzzy
 msgid ""
 "The Google Drive CDN plugin currently syncs or uploads your items to your "
@@ -139,22 +139,22 @@ msgstr ""
 "De plugin Google Drive CDN synchroniseert momenteel uw objecten naar uw "
 "Google Drive opslag."
 
-#: ../../classes/wpb_google_drive_cdn.php:1391
+#: ../../classes/wpb_google_drive_cdn.php:1435
 #, fuzzy
 msgid "Once a week"
 msgstr "Week"
 
-#: ../../classes/wpb_google_drive_cdn.php:1392
+#: ../../classes/wpb_google_drive_cdn.php:1436
 #, fuzzy
 msgid "Every 2th week"
 msgstr "Week"
 
-#: ../../classes/wpb_google_drive_cdn.php:1393
+#: ../../classes/wpb_google_drive_cdn.php:1437
 #, fuzzy
 msgid "Every 3rd week"
 msgstr "Week"
 
-#: ../../classes/wpb_google_drive_cdn.php:1394
+#: ../../classes/wpb_google_drive_cdn.php:1438
 #, fuzzy
 msgid "Once a month"
 msgstr "Maand"
@@ -546,11 +546,23 @@ msgstr ""
 msgid "File extensions"
 msgstr "bestand"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:366
+#: ../../classes/wpb_google_drive_cdn_settings.php:229
+#, fuzzy
+msgid "Excluded files"
+msgstr ""
+"Let op: u wordt doorgestuurd naar een Google's authorizatie pagina. Druk op "
+"de blauwe knop om deze toepassing het recht om bestanden te uploaden te "
+"geven."
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:240
+msgid "Actions"
+msgstr ""
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:377
 msgid "file"
 msgstr "bestand"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:367
+#: ../../classes/wpb_google_drive_cdn_settings.php:378
 #, fuzzy
 msgid ""
 "Increasing this number can improve load time because your own server can "
@@ -561,7 +573,7 @@ msgstr ""
 "Drive. Vanwege dit proces zal snelheid van uw website moet voortdurend "
 "worden verbeterd."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:385
+#: ../../classes/wpb_google_drive_cdn_settings.php:396
 msgid ""
 "hours (It's recommend to leave this empty because static files do not change "
 "very often.)"
@@ -569,7 +581,7 @@ msgstr ""
 "uur (het is aanbevelen dit leeg te laten omdat statische bestanden niet vaak "
 "veranderen.)"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:386
+#: ../../classes/wpb_google_drive_cdn_settings.php:397
 msgid ""
 "Please specify how long the URLs should be cached. Set to 0 to deactivate. "
 "Leave it blank to store the files for an indefinite period."
@@ -578,7 +590,7 @@ msgstr ""
 "schakelen. Laat het leeg voor het opslaan van de bestanden voor een "
 "onbepaalde periode."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:410
+#: ../../classes/wpb_google_drive_cdn_settings.php:421
 #, fuzzy
 msgid ""
 "How often the files should be synced. If you have a very large media library "
@@ -588,7 +600,7 @@ msgstr ""
 "uur (het is aanbevelen dit leeg te laten omdat statische bestanden niet vaak "
 "veranderen.)"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:429
+#: ../../classes/wpb_google_drive_cdn_settings.php:440
 #, fuzzy
 msgid ""
 "File extensions to search for (comma separated). Note that already uploaded "
@@ -598,7 +610,7 @@ msgstr ""
 "Als het bestand is nog niet is geüpload naar Google Drive zal de plugin het "
 "neerzetten in de cache-database om het later te uploaden."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:430
+#: ../../classes/wpb_google_drive_cdn_settings.php:441
 #, fuzzy
 msgid ""
 "The plugin found out that you are currently not using SSL. To prevent "
@@ -608,20 +620,24 @@ msgstr ""
 "De plugin Google Drive CDN synchroniseert momenteel uw objecten naar uw "
 "Google Drive opslag."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:451
+#: ../../classes/wpb_google_drive_cdn_settings.php:461
+msgid "Add full URLs of files you want to exclude. One per line."
+msgstr ""
+
+#: ../../classes/wpb_google_drive_cdn_settings.php:480
 #, fuzzy
 msgid ""
 "Activate this if you're getting a \"open_basedir restriction in effect\" "
 "error."
 msgstr "Google's API gaf een error terug!"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:451
-#: ../../classes/wpb_google_drive_cdn_settings.php:472
+#: ../../classes/wpb_google_drive_cdn_settings.php:480
+#: ../../classes/wpb_google_drive_cdn_settings.php:501
 #, fuzzy
 msgid "Read more about it here. (Question #15)"
 msgstr "Over"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:472
+#: ../../classes/wpb_google_drive_cdn_settings.php:501
 #, fuzzy
 msgid ""
 "This is the path to a writable folder. Only set when \"Change temp dir\" is "
@@ -631,15 +647,15 @@ msgstr ""
 "de blauwe knop om deze toepassing het recht om bestanden te uploaden te "
 "geven."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:492
+#: ../../classes/wpb_google_drive_cdn_settings.php:521
 msgid "Curl"
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:493
+#: ../../classes/wpb_google_drive_cdn_settings.php:522
 msgid "HTTP Stream"
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:496
+#: ../../classes/wpb_google_drive_cdn_settings.php:525
 #, fuzzy
 msgid ""
 "If you have problems to connect to the Google Drive API you can change the "
@@ -647,7 +663,7 @@ msgid ""
 "hosting provider to activate at least the PHP curl functions."
 msgstr "2. Maak verbinding met je Google Drive"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:511
+#: ../../classes/wpb_google_drive_cdn_settings.php:540
 #, php-format
 msgid ""
 "In order to get automatic updates you should copy and paste your purchase "
@@ -658,15 +674,15 @@ msgstr ""
 "plakken. Als u niet waar weet u uw aankoop code kunt vinden, klik dan hier: "
 "%s"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:511
+#: ../../classes/wpb_google_drive_cdn_settings.php:540
 msgid "Where to find your purchase code"
 msgstr "Waar vindt u uw aankoop code"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:534
+#: ../../classes/wpb_google_drive_cdn_settings.php:563
 msgid "Disconnect"
 msgstr ""
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:535
+#: ../../classes/wpb_google_drive_cdn_settings.php:564
 #, fuzzy
 msgid ""
 "Disconnects your Website from Google Drive. It does not delete any files."
@@ -674,11 +690,11 @@ msgstr ""
 "Gesynchroniseerde bestanden kunnen vervolgens rechtstreeks vanuit uw Google "
 "Drive worden geserveerd."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:545
+#: ../../classes/wpb_google_drive_cdn_settings.php:574
 msgid "Clear local CDN cache"
 msgstr "Maak lokale CDN cache leeg"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:546
+#: ../../classes/wpb_google_drive_cdn_settings.php:575
 #, fuzzy
 msgid ""
 "Clears the local cache (which means that all links from local to Google "
@@ -687,7 +703,7 @@ msgstr ""
 "Elk uur leest de plugin deze vermeldingen uit de cache-database om de "
 "bestanden te syncen die nog niet zijn gesynchroniseerd zijn met Google Drive."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:556
+#: ../../classes/wpb_google_drive_cdn_settings.php:585
 #, fuzzy
 msgid "Trash CDN files"
 msgstr ""
@@ -695,7 +711,7 @@ msgstr ""
 "geschreven naar de cache-database worden dan geupload naar Google Drive door "
 "te klikken op de \"Sync lokale CDN\"-knop."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:557
+#: ../../classes/wpb_google_drive_cdn_settings.php:586
 #, fuzzy
 msgid ""
 "Moves all cached files to the Google Drive trash. It does not delete any "
@@ -704,11 +720,11 @@ msgstr ""
 "Elk uur leest de plugin deze vermeldingen uit de cache-database om de "
 "bestanden te syncen die nog niet zijn gesynchroniseerd zijn met Google Drive."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:567
+#: ../../classes/wpb_google_drive_cdn_settings.php:596
 msgid "Sync local CDN"
 msgstr "Sync lokale CDN"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:567
+#: ../../classes/wpb_google_drive_cdn_settings.php:596
 #, fuzzy
 msgid "Upload new files"
 msgstr ""
@@ -716,7 +732,7 @@ msgstr ""
 "de blauwe knop om deze toepassing het recht om bestanden te uploaden te "
 "geven."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:568
+#: ../../classes/wpb_google_drive_cdn_settings.php:597
 #, fuzzy
 msgid ""
 "Syncs the local CDN Cache database with your Google Drive folder. Existing "
@@ -726,11 +742,11 @@ msgstr ""
 "Elk uur leest de plugin deze vermeldingen uit de cache-database om de "
 "bestanden te syncen die nog niet zijn gesynchroniseerd zijn met Google Drive."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:578
+#: ../../classes/wpb_google_drive_cdn_settings.php:607
 msgid "Sync my media library now"
 msgstr "Mijn mediabibliotheek nu synchroniseren"
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:581
+#: ../../classes/wpb_google_drive_cdn_settings.php:610
 #, fuzzy
 msgid ""
 "This syncs your media library. Leave this page if you want to stop syncing."
@@ -739,12 +755,12 @@ msgstr ""
 "behulp van de \"Sync Mijn media bibliotheek nu\"-knop. Dit zal enige tijd "
 "duren afhankelijk van de grootte van uw mediabibliotheek."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:591
+#: ../../classes/wpb_google_drive_cdn_settings.php:620
 #, fuzzy
 msgid "Stop current sync process"
 msgstr "CDN sync in bezig..."
 
-#: ../../classes/wpb_google_drive_cdn_settings.php:608
+#: ../../classes/wpb_google_drive_cdn_settings.php:637
 #, fuzzy
 msgid ""
 "If this is checked, the plugin will never sync your media library. It will "
